@@ -9,7 +9,7 @@ const Campo = ({
   obrigatorio = false,
 }) => {
   return (
-    <div className={`campo, campo-${type}`}>
+    <div className={`campo campo-${type}`}>
       <label>{label}</label>
       <input
         type={type}

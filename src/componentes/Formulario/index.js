@@ -73,10 +73,10 @@ const Formulario = ({ aoCadastrar, times, aoCriarTime }) => {
         <Campo
           obrigatorio={true}
           label="Cor"
-          type='color'
+          type="color"
           placeholder="Digite sua cor"
           valor={corTime}
-          aoAlterado={valor => setCorTime(valor)}
+          aoAlterado={(valor) => setCorTime(valor)}
         />
         <Botao texto="Criar Time" />
       </form>
